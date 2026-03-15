@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "C:/Users/danla/source/mint/.venv/Scripts/python.exe",
+    "pylint.args": [
+        "--disable=C0114,C0115,C0116",
+        "--max-args=10"
+    ]
+}
