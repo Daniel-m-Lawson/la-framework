@@ -1,4 +1,4 @@
-# la_framework/la_database.py
+# la_framework/core/la_database.py
 from __future__ import annotations
 from contextlib import contextmanager
 from typing import Generator, Sequence, TypeVar, Optional

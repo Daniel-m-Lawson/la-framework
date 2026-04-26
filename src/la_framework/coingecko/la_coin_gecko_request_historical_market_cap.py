@@ -1,8 +1,7 @@
-# la_coin_gecko_request_historical_market_cap.py
 from datetime import datetime
 from decimal import Decimal
-from la_framework.la_coin_gecko_request import LaCoinGeckoRequest
-from la_framework.la_crypto import LaCrypto
+from .la_coin_gecko_request import LaCoinGeckoRequest
+from ..core import LaCrypto
 
 
 class LaCoinGeckoRequestHistoricalMarketCap(LaCoinGeckoRequest):

@@ -3,3 +3,10 @@ Name: la-framework
 Version: 0.1.0
 Summary: Daniel's internal Python framework
 Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: pyodbc>=4.0
+Requires-Dist: requests>=2.28
+Requires-Dist: plotly>=5.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Dynamic: license-file

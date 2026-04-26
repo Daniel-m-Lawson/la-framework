@@ -1,3 +1,12 @@
+from __future__ import annotations
+from dataclasses import asdict
+from typing import Generic, Type, TypeVar
+
+from .la_database import LaDatabase
+
+T = TypeVar("T")
+
+
 class LaTable(Generic[T]):
     """Framework helper for storing a dataclass in a database table."""
 

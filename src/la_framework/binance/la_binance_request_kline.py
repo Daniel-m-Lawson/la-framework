@@ -5,8 +5,8 @@ from decimal import Decimal
 from enum import Enum
 from typing import Optional
 
-from la_framework.la_binance_request import LaBinanceRequest
-from la_framework.la_kline import LaKline, LaKlineList
+from .la_binance_request import LaBinanceRequest
+from ..core import LaKline, LaKlineList
 
 
 class LaBinanceInterval(str, Enum):

@@ -1,11 +1,9 @@
-# la_coin_gecko_request_historical_ranking.py
-
 from decimal import Decimal
 from datetime import datetime, timedelta
 from typing import cast
 
-from la_framework.la_coin_gecko_request import LaCoinGeckoRequest
-from la_framework.la_crypto import LaCrypto, LaCryptoList
+from .la_coin_gecko_request import LaCoinGeckoRequest
+from ..core import LaCrypto, LaCryptoList
 
 
 class LaCoinGeckoRequestHistoricalRanking(LaCoinGeckoRequest):

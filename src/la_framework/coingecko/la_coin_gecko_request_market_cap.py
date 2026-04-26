@@ -1,7 +1,6 @@
-# la_coin_gecko_request_market_cap.py
 from decimal import Decimal
-from la_framework.la_coin_gecko_request import LaCoinGeckoRequest
-from la_framework.la_crypto import LaCrypto, LaCryptoList
+from .la_coin_gecko_request import LaCoinGeckoRequest
+from ..core import LaCrypto, LaCryptoList
 
 
 class LaCoinGeckoRequestMarketCap(LaCoinGeckoRequest):

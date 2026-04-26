@@ -1,8 +1,8 @@
 from dataclasses import dataclass
 from decimal import Decimal
 
-from la_framework.la_keyed_class import LaKeyedClass
-from la_framework.la_list import LaList
+from .la_keyed_class import LaKeyedClass
+from .la_list import LaList
 
 
 @dataclass
