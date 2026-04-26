@@ -9,6 +9,8 @@ def random_str(min_length: int = 5, max_length: int = 10) -> str:
     return result
 
 
-def random_decimal(min_value: float = 0.0, max_value: float = 100.0) -> Decimal:
-    value = random.uniform(min_value, max_value)
+def random_decimal(
+    min_value: Decimal = Decimal("0"), max_value: Decimal = Decimal("100")
+) -> Decimal:
+    value = random.uniform(float(min_value), float(max_value))
     return Decimal(str(value))
